@@ -1,1 +1,1 @@
-Juegos escritos creados en Java para comprender mejor el lenguaje
+Juegos creados en el lenguaje Java para su mejor comprension y estudio del mismo.
