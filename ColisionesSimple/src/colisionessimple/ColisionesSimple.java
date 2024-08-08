@@ -1,10 +1,11 @@
+package colisionessimple;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
-public class Principal{
+public class ColisionesSimple{
     public static int reiniciaJuego=-1;
     
     public static void main(String[] args) {
@@ -36,16 +37,19 @@ public class Principal{
                     try {
                         Thread.sleep(10 );
                     } catch (InterruptedException ex) {
-                        Logger.getLogger(Principal.class.getName()).log(Level.SEVERE, null, ex);
+                        Logger.getLogger(ColisionesSimple.class.getName()).log(Level.SEVERE, null, ex);
                     }
-                    if(jueguito.pierdeVida){
-                        JOptionPane.showMessageDialog(null, "CUIDADO");
-                        jueguito.pierdeVida=false;
+                     if (jueguito.pierdeVida) {
+                        // Mensaje basado en el número de vidas restantes
+                        String mensajeVida = jueguito.vidas == 1 ? "CUIDADO, SOLO TE QUEDA UNA VIDA. NO MUERAS." : "CUIDADO, PERDISTE UNA VIDA.";
+                        JOptionPane.showMessageDialog(null, mensajeVida);
+                        jueguito.pierdeVida = false;
                         jueguito.vidas--;
-                        Obstaculo.x=1200;
+                        Obstaculo.x = 1200;
                         Personaje.saltando = false;
-                        Personaje.y=250;
+                        Personaje.y = 250;
                     }
+                    
             }
             
             
