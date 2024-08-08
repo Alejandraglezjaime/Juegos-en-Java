@@ -78,7 +78,5 @@ public class Juego extends JPanel{
     public void finJuego(){
         juegoFinalizado=true;}
 
-    
-    
 
 }
