@@ -1,1 +1,1 @@
-Juegos creados en el lenguaje Java para su mejor comprension y estudio del mismo.
+Este repositorio cuenta con diferentes juegos creados en el lenguaje Java para su mejor comprension y estudio del mismo. 
