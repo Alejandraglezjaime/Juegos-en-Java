@@ -120,14 +120,14 @@
               <Color blue="fc" green="e3" red="f1" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="         https://www.instagram.com/alejandra_g01j?utm_source=qr&amp;r=nametag"/>
+            <Property name="text" type="java.lang.String" value="alejandra_g01j"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
               <Color id="Hand Cursor"/>
             </Property>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="0" y="160" width="610" height="50"/>
+              <AbsoluteConstraints x="240" y="170" width="200" height="50"/>
             </Constraint>
           </Constraints>
         </Component>
@@ -143,7 +143,7 @@
               <Color blue="fc" green="e3" red="f1" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Red social"/>
+            <Property name="text" type="java.lang.String" value="Sigueme en mis redes sociales"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
               <Color id="Hand Cursor"/>
             </Property>
@@ -166,14 +166,14 @@
               <Color blue="fc" green="e3" red="f1" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Creado por Arleth Alejandra Gonzalez Jaime"/>
+            <Property name="text" type="java.lang.String" value=" Arleth Alejandra Gonzalez Jaime"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
               <Color id="Hand Cursor"/>
             </Property>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="0" y="70" width="620" height="50"/>
+              <AbsoluteConstraints x="0" y="60" width="620" height="50"/>
             </Constraint>
           </Constraints>
         </Component>
@@ -184,7 +184,7 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="50" y="170" width="30" height="30"/>
+              <AbsoluteConstraints x="190" y="180" width="30" height="30"/>
             </Constraint>
           </Constraints>
         </Component>

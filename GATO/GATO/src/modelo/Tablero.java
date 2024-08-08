@@ -9,7 +9,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 import javax.swing.JPanel;
 import vista.FormResultado;
-import vista.form;
+import vista.Form;
 
 public class Tablero extends JPanel{
     private int anchoCI;
@@ -124,21 +124,21 @@ public class Tablero extends JPanel{
     }
     public void cambiarEstilos(TipoImagen jugadorAct){
         if(jugadorAct==TipoImagen.CIRCULO){
-            form.imgJugadorEquis.setRuta(Ruta.JUGADORAUXILLAR);
-            form.imgJugadorEquis.repaint();
-            form.nombreJugadorEquis.setForeground(new Color(240,240,240,100));
+            Form.imgJugadorEquis.setRuta(Ruta.JUGADORAUXILLAR);
+            Form.imgJugadorEquis.repaint();
+            Form.nombreJugadorEquis.setForeground(new Color(240,240,240,100));
             
-            form.imgJugadorCirculo.setRuta(Ruta.JUGADORCIRCULO);
-            form.imgJugadorCirculo.repaint();
-            form.nombreJugadorCirculo.setForeground(new Color(255,200,255));
+            Form.imgJugadorCirculo.setRuta(Ruta.JUGADORCIRCULO);
+            Form.imgJugadorCirculo.repaint();
+            Form.nombreJugadorCirculo.setForeground(new Color(255,200,255));
         }else if(jugadorAct==TipoImagen.EQUIS){
-            form.imgJugadorCirculo.setRuta(Ruta.JUGADORAUXILLAR);
-            form.imgJugadorCirculo.repaint();
-            form.nombreJugadorCirculo.setForeground(new Color(240,240,240,100));
+            Form.imgJugadorCirculo.setRuta(Ruta.JUGADORAUXILLAR);
+            Form.imgJugadorCirculo.repaint();
+            Form.nombreJugadorCirculo.setForeground(new Color(240,240,240,100));
             
-            form.imgJugadorEquis.setRuta(Ruta.JUGADOREQUIS);
-            form.imgJugadorEquis.repaint();
-            form.nombreJugadorEquis.setForeground(new Color(180,232,255));
+            Form.imgJugadorEquis.setRuta(Ruta.JUGADOREQUIS);
+            Form.imgJugadorEquis.repaint();
+            Form.nombreJugadorEquis.setForeground(new Color(180,232,255));
         }
     }
     public void resultado(TipoImagen tipoImagenResultado,TipoImagen jugadorGanador){
@@ -153,6 +153,7 @@ public class Tablero extends JPanel{
                   public void run() {
                     FormResultado formResultado = new FormResultado(TipoImagen.EMPATE,tablero);
                     formResultado.setVisible(true);
+                    
                   }
               };
               timer.schedule(tarea,800);
@@ -179,12 +180,12 @@ public class Tablero extends JPanel{
         borrarImagenes();
         cuadroFrontal.setTipoImagen(null);
         if(ganador==TipoImagen.EQUIS){
-            int puntajeNuevo= Integer.parseInt(form.puntajeEquis.getText())+1;
-            form.puntajeEquis.setText(String.valueOf(puntajeNuevo));
+            int puntajeNuevo= Integer.parseInt(Form.puntajeEquis.getText())+1;
+            Form.puntajeEquis.setText(String.valueOf(puntajeNuevo));
         }
         else if(ganador==TipoImagen.CIRCULO){
-             int puntajeNuevo= Integer.parseInt(form.puntajeCirculo.getText())+1;
-            form.puntajeCirculo.setText(String.valueOf(puntajeNuevo));
+             int puntajeNuevo= Integer.parseInt(Form.puntajeCirculo.getText())+1;
+            Form.puntajeCirculo.setText(String.valueOf(puntajeNuevo));
         }
         
         if(turnoPartida==TipoImagen.EQUIS){

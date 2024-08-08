@@ -85,16 +85,16 @@ public class FormCreditos extends javax.swing.JFrame {
         lblInicial.setFont(new java.awt.Font("always  forever", 1, 24)); // NOI18N
         lblInicial.setForeground(new java.awt.Color(241, 227, 252));
         lblInicial.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lblInicial.setText("         https://www.instagram.com/alejandra_g01j?utm_source=qr&r=nametag");
+        lblInicial.setText("alejandra_g01j");
         lblInicial.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         PanelFondo.add(lblInicial);
-        lblInicial.setBounds(0, 160, 610, 50);
+        lblInicial.setBounds(240, 170, 200, 50);
 
         lblInicial1.setBackground(new java.awt.Color(60, 63, 65));
         lblInicial1.setFont(new java.awt.Font("always  forever", 1, 24)); // NOI18N
         lblInicial1.setForeground(new java.awt.Color(241, 227, 252));
         lblInicial1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lblInicial1.setText("Red social");
+        lblInicial1.setText("Sigueme en mis redes sociales");
         lblInicial1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         PanelFondo.add(lblInicial1);
         lblInicial1.setBounds(0, 130, 610, 40);
@@ -103,15 +103,15 @@ public class FormCreditos extends javax.swing.JFrame {
         lblInicial2.setFont(new java.awt.Font("always  forever", 1, 24)); // NOI18N
         lblInicial2.setForeground(new java.awt.Color(241, 227, 252));
         lblInicial2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lblInicial2.setText("Creado por Arleth Alejandra Gonzalez Jaime");
+        lblInicial2.setText(" Arleth Alejandra Gonzalez Jaime");
         lblInicial2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         PanelFondo.add(lblInicial2);
-        lblInicial2.setBounds(0, 70, 620, 50);
+        lblInicial2.setBounds(0, 60, 620, 50);
 
         imgInsta.setText("imagen1");
         imgInsta.setRuta("/recursos/Insta.png");
         PanelFondo.add(imgInsta);
-        imgInsta.setBounds(50, 170, 30, 30);
+        imgInsta.setBounds(190, 180, 30, 30);
 
         imgIzquierda.setText("imagen1");
         imgIzquierda.setRuta("/recursos/JugadorEquis.png");

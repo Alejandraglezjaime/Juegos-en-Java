@@ -174,7 +174,10 @@ public class FormInicio extends javax.swing.JFrame {
         panelBoton.setLayout(panelBotonLayout);
         panelBotonLayout.setHorizontalGroup(
             panelBotonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(lblIniciar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 160, Short.MAX_VALUE)
+            .addGroup(panelBotonLayout.createSequentialGroup()
+                .addGap(34, 34, 34)
+                .addComponent(lblIniciar, javax.swing.GroupLayout.DEFAULT_SIZE, 91, Short.MAX_VALUE)
+                .addGap(35, 35, 35))
         );
         panelBotonLayout.setVerticalGroup(
             panelBotonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -379,7 +382,7 @@ public class FormInicio extends javax.swing.JFrame {
         else
             jugador2.setNombre(txtJugador2.getText());
         
-        form tikTacToe = new form(jugador1,jugador2);
+        Form tikTacToe = new Form(jugador1,jugador2);
         tikTacToe.setVisible(true);
     }//GEN-LAST:event_lblIniciarMousePressed
 
