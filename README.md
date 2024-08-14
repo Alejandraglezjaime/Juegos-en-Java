@@ -50,9 +50,19 @@ El juego permite a los jugadores marcar un recuadro con un círculo o una X (tac
 
 ![Pantalla panel del juego](https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/tictactoePanel.jpg?raw=true)
 ![Pantalla ganador del juego](https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/tictactoeGanador.jpg?raw=true)
-![Pantalla empate del juego](https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/tictactoeGanador.jpg?raw=true)
+![Pantalla empate del juego](https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/tictactoeEmpate.jpg?raw=true)
 
 El juego también lleva un registro de los puntos de cada jugador. 
 ![Pantalla puntaje del juego](https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/tictactoePuntaje.jpg?raw=true)
 
 Tras determinar el ganador o un empate, se presenta una ventana con dos botones: uno para comenzar otra partida y otro para salir del juego, pero este botón te regresa a la pantalla principal donde el jugador tiene que ingresar sus nombres. Si se desea salir completamente del juego, desde la ventana inicial se tiene que salir, dando clicl en el botón de la equis.
+
+
+## Juego del ahorcado
+
+**Descripción del Juego:** 
+El tradicional "juego del ahorcado" es un juego de palabras en el que el jugador debe adivinar una palabra oculta, letra por letra. Si comete un error, se acerca a "ahorcarse", pero si acierta todas las letras, evita la ejecución. Este juego incluye cuatro grupos de palabras: *tabla periódica, colores, animales y países*. El jugador cuenta con 5 vidas, y al agotarlas, se muestra un mensaje de "juego terminado" y se reinicia el juego automáticamente.
+El jugador puede ingresar directamente la letra, ya que el juego está programado para que, al iniciarse y cada vez que se verifica, el cuadro de texto esté listo para recibir una letra. 
+Si el jugador desea otra palabra, puede utilizar el botón de "nuevo", que reinicia el juego y selecciona una nueva palabra de un grupo diferente.
+
+![Pantalla principal del juego](https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/juegoDelAhorcado.jpg?raw=true)
