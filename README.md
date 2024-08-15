@@ -173,3 +173,8 @@ Ping Pong es un juego en el que dos jugadores controlan paletas para golpear una
 El juego de Ping Pong está diseñado para dos jugadores, utilizando las flechas arriba y abajo para un jugador, y las teclas 'S' y 'W' para el otro. No hay límite de intentos, por lo que el juego continúa indefinidamente hasta que se cierre el programa.
 
 ![Imagen del ping pong](https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/pingpong.jpg?raw=true)
+
+
+
+###### Créditos: Alejandra Gonzalez 
+
