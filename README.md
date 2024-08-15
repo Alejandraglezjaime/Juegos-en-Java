@@ -51,13 +51,17 @@ Este es un juego de laberinto en su versión inicial, donde el objetivo principa
 
 **Descripción del Juego:** 
 
-Asi como el juego anterior, este juego es intercativo, donde el jugador tiene un punto de partida y tiene que llegar al final y seguir avanzando, cuando pasa la final cambia al siguiente nivel. Cuenta con 3 niveles. 
+Asi como el juego anterior, este juego es intercativo, donde el jugador tiene un punto de partida y tiene que llegar al final y seguir avanzando, cuando pasa la final cambia al siguiente nivel. Cuenta con 3 niveles, al llegar al final del nivel 3 pregunta al jugador si quiere volver a jugar o desea salir del juego. 
 
-![Imagen de la pantalla del juego](https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/gameLaberinto.jpg?raw=true)
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/laberintonivel1.jpg?raw=true" alt="Pantalla inicial Pac-Man" style="width: 45%;">
+    <img src="https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/laberintonivel2.jpg?raw=true" alt="Pantalla de juego Pac-Man" style="width: 45%;">
+</div>
 
-![Imagen de la pantalla del juego](https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/gameLaberinto.jpg?raw=true)
-
-![Imagen de la pantalla del juego](https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/gameLaberinto.jpg?raw=true)
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/laberintonivel3.jpg?raw=true" alt="Pantalla inicial Pac-Man" style="width: 45%;">
+    <img src="https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/laberintogameover.jpg?raw=true" alt="Pantalla de juego Pac-Man" style="width: 45%;">
+</div>
 
 
 ## TIC TAC TOE
@@ -136,6 +140,36 @@ Snake Game es un clásico juego en el que controlas una serpiente que debe comer
 
 **Descripción del Juego:** 
 
+Sudoku es un juego de lógica donde debes llenar una cuadrícula de 9x9 con números del 1 al 9, asegurándote de que no se repitan en filas, columnas ni subcuadrículas de 3x3. El objetivo es completar la cuadrícula siguiendo estas reglas.
+
+![Imagen de la pantalla del juego](https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/sudoku.jpg?raw=true)
+
+El juego de Sudoku permite que, al seleccionar un recuadro, se resalten la fila y columna correspondientes, habilitando la opción de elegir un número. Una vez seleccionado, el número se ingresa en el recuadro.
+
+![Imagen de la seleccion del numero en sudoku](https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/sudokuSeleccionNumero.jpg?raw=true)
+
+Si el jugador desea jugar una nueva partida, le aparece una ventana del nivel que desa jugar (*facil, medio o intermedio*), automáticamente el juego se inicia en nivel medio.
+
+![Imagen de la seleccion del nivel en sudoku](https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/sudokuNivel.jpg?raw=true)
+
+El juego de Sudoku permite al jugador crear su propio tablero. Al presionar el botón "Crear", se activa una interfaz para diseñarlo. Una vez finalizado, el jugador selecciona un botón para guardar el diseño, y el juego queda listo para jugar.
+
+![Imagen de la creacion del sudoku](https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/sudokuNuevo.jpg?raw=true)
+
+El juego de Sudoku incluye dos botones: "Comprobar" y "Resolver". Al seleccionar "Resolver", el juego se completa automáticamente. Si se elige "Comprobar" y el tablero no está completo, se muestra un mensaje indicando que falta información. Si el Sudoku está completo y es correcto, aparece un mensaje que confirma que el Sudoku es correcto.
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/sudokuResolver.jpg?raw=true" alt="Pantalla inicial Pac-Man" style="width: 45%;">
+    <img src="https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/sudokuIncompleto.jpg?raw=true" alt="Pantalla de juego Pac-Man" style="width: 45%;">
+    <img src="https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/sudokuCorrecto.jpg?raw=true" alt="Pantalla de juego Pac-Man" style="width: 45%;">
+</div>
+
 ## Ping Pong
 
 **Descripción del Juego:** 
+
+Ping Pong es un juego en el que dos jugadores controlan paletas para golpear una pelota, intentando que el oponente no pueda devolverla. El objetivo es anotar puntos haciendo que la pelota pase la paleta del oponente, el que mas puntos gane es el ganador. 
+
+El juego de Ping Pong está diseñado para dos jugadores, utilizando las flechas arriba y abajo para un jugador, y las teclas 'S' y 'W' para el otro. No hay límite de intentos, por lo que el juego continúa indefinidamente hasta que se cierre el programa.
+
+![Imagen del ping pong](https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/pingpong.jpg?raw=true)
