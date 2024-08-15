@@ -1,7 +1,7 @@
 # JUEGOS CREADOS EN JAVA
 Este repositorio cuenta con diferentes juegos creados en el lenguaje Java para su mejor comprension y estudio del mismo. 
 
-## Juego de gestión de colisiones
+## Gestión de colisiones
 
 **Descripción del Juego:** 
 
@@ -19,7 +19,7 @@ Al finalizar la partida, se muestra una ventana emergente que le pregunta al usu
 
 ![Imagen de la pantalla de reincio](https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/juego%20de%20gestion%20de%20colisiones%20ventana%20opciones.jpg?raw=true)
 
-## Juego de gestión de colisiones version 2
+## Gestión de colisiones version 2
 
 **Descripción del Juego:** 
 
@@ -39,7 +39,7 @@ Este juego es una versión similar del juego de gestión de colisiones anterior,
 
 ![Imagen de la pantalla del reinicio](https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/juego%20de%20gestion%20de%20colisiones%20ventana%20reinicio%20version%202.jpg?raw=true)
 
-## Juego del laberinto
+## Laberinto 
 
 **Descripción del Juego:** 
 
@@ -94,3 +94,21 @@ Al ingresar al juego, se presenta un memorama en el que el jugador debe hacer cl
 Al completar el juego, se muestra una ventana con el récord del jugador, incluyendo el nombre, el tiempo de juego, la hora de inicio y la fecha actual. Esta ventana también incluye un botón para regresar al menú principal, permitiendo que el jugador pueda empezar de nuevo si así lo desea.
 
 ![Pantalla record](https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/memoramarecord.jpg?raw=true)
+
+## Pacman
+
+**Descripción del Juego:** 
+
+Pac-Man es un juego arcade donde controlas a un personaje amarillo que debe comer todos los puntos en un laberinto, evitando fantasmas. El juego comienza al presionar 'S'; cuenta con tres vidas disponibles, si Pac-Man es atrapado por un fantasma, el jugador pierde una vida y Pac-Man regresa a su punto inicial.
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/pacmaninicial.jpg?raw=true" alt="Pantalla inicial Pac-Man" style="width: 45%;">
+    <img src="https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/pacmanjuego.jpg?raw=true" alt="Pantalla de juego Pac-Man" style="width: 45%;">
+</div>
+
+
+## Sanke Game 
+
+**Descripción del Juego:** 
+
+Snake Game es un clásico juego en el que controlas una serpiente que debe comer comida para crecer, evitando chocar con las paredes. El objetivo es obtener la mayor longitud posible antes de colisionar. El juego va contabilizando los puntos que va obteiendo el jugador, y al momento de perder muestra una ventana informandole "Game over" y los puntos obtenidos. 
