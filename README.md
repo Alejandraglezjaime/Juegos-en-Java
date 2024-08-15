@@ -57,11 +57,14 @@ Este proyecto es una adaptación del clásico juego del gato. Es un juego para d
 
 El juego permite a los jugadores marcar un recuadro con un círculo o una X (tache) al hacer clic en él. Además, el juego resalta el jugador cuyo turno es actualmente. Cuando un jugador gana, se muestra una ventana indicando el nombre del jugador ganador y la figura que ha usado (círculo o tache). En caso de empate, se muestra una ventana de empate.
 
-![Pantalla panel del juego](https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/tictactoePanel.jpg?raw=true)
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <img src="https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/tictactoePanel.jpg?raw=true" alt="Pantalla panel del juego">
+</div>
 
-![Pantalla ganador del juego](https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/tictactoeGanador.jpg?raw=true)
-
-![Pantalla empate del juego](https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/tictactoeEmpate.jpg?raw=true)
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/tictactoeGanador.jpg?raw=true" alt="Pantalla inicial Pac-Man" style="width: 45%;">
+    <img src="https://github.com/Alejandraglezjaime/Juegos-en-Java/blob/master/assets/tictactoeEmpate.jpg?raw=true" alt="Pantalla de juego Pac-Man" style="width: 45%;">
+</div>
 
 El juego también lleva un registro de los puntos de cada jugador. 
 
